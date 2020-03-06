@@ -12,8 +12,8 @@ an optimizing pass can determine, which parts need to be actually linked and whi
 
 Library                                                                                 | Description 
 ----------------------------------------------------------------------------------------|----------------------
-[Foundation](//github.com/MulleFoundation/Foundation)                                   | The Foundation library for mulle-objc
-[MulleFoundation](//github.com/MulleFoundation/MulleFoundation)                         | Convenient wrapper for the MulleFoundation 
+[Foundation](//github.com/MulleFoundation/Foundation)                                   | The MulleFoundation plus compatibility code
+[MulleFoundation](//github.com/MulleFoundation/MulleFoundation)                         | A convenient wrapper for the  MulleFoundation libraries
 [MulleObjCContainerFoundation](//github.com/MulleFoundation/MulleObjCContainerFoundation ) | Container classes like NSArray, NSSet, NSDictionary
 [MulleObjCExpatFoundation](//github.com/MulleFoundation/MulleObjCExpatFoundation)       | XML parser based on MulleObjCStandardFoundation and libexpat 
 [MulleObjCInetFoundation](//github.com/MulleFoundation/MulleObjCInetFoundation)         | Internet-related classes like NSHost and NSURL 
@@ -23,6 +23,11 @@ Library                                                                         
 [MulleObjCStandardFoundation](//github.com/MulleFoundation/MulleObjCStandardFoundation) | Platform-independent Objective-C classes, like NSString, NSArray, NSNotificationCenter
 [MulleObjCValueFoundation ](//github.com/MulleFoundation/MulleObjCValueFoundation  )    | Value classes NSNumber, NSString, NSDate, NSData 
 [objc-compat](//github.com/MulleFoundation/objc-compat)                                 | Glue for Objective-C code to support different runtimes
+
+Library                                                                                | Description
+---------------------------------------------------------------------------------------|----------------------
+[Foundation](//github.com/MulleFoundation/Foundation-startup)                          | Startup code for Foundation-based executables
+[MulleFoundation](//github.com/MulleFoundation/MulleFoundation-startup)                | Startup code for MulleFoundation-based executables
 
 *MulleFoundation* is based on [MulleObjC](//MulleObjC.github.io) and [mulle-core](//mulle-core.github.io).
 Some constituent libraries bring in outside depedencies such as *expat* for XML parsing.
