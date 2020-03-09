@@ -26,11 +26,11 @@ Library                                                                         
 
 Library                                                                                | Description
 ---------------------------------------------------------------------------------------|----------------------
-[Foundation](//github.com/MulleFoundation/Foundation-startup)                          | Startup code for Foundation-based executables
-[MulleFoundation](//github.com/MulleFoundation/MulleFoundation-startup)                | Startup code for MulleFoundation-based executables
+[Foundation-startup](//github.com/MulleFoundation/Foundation-startup)                  | Startup code for Foundation-based executables
+[MulleFoundation-startup](//github.com/MulleFoundation/MulleFoundation-startup)        | Startup code for MulleFoundation-based executables
 
 *MulleFoundation* is based on [MulleObjC](//MulleObjC.github.io) and [mulle-core](//mulle-core.github.io).
-Some constituent libraries bring in outside depedencies such as *expat* for XML parsing.
+Some constituent libraries bring in outside dependencies such as *expat* for XML parsing.
 
 ## mulle-sde support
 
