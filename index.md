@@ -14,9 +14,10 @@ Library                                                                         
 ----------------------------------------------------------------------------------------|----------------------
 [Foundation](//github.com/MulleFoundation/Foundation)                                   | The MulleFoundation plus compatibility code
 [MulleFoundation](//github.com/MulleFoundation/MulleFoundation)                         | A convenient wrapper for the  MulleFoundation libraries
+[MulleObjCCalendarFoundation](//github.com/MulleFoundation/MulleObjCCalendarFoundation ) | Calendar functionality with NSCalendar
 [MulleObjCContainerFoundation](//github.com/MulleFoundation/MulleObjCContainerFoundation ) | Container classes like NSArray, NSSet, NSDictionary
 [MulleObjCExpatFoundation](//github.com/MulleFoundation/MulleObjCExpatFoundation)       | XML parser based on MulleObjCStandardFoundation and libexpat 
-[MulleObjCInetFoundation](//github.com/MulleFoundation/MulleObjCInetFoundation)         | Internet-related classes like NSHost and NSURL 
+[MulleObjCInetOSFoundation](//github.com/MulleFoundation/MulleObjCInetOSFoundation)     | OS specific extensions with NSURL 
 [MulleObjCKVCFoundation](//github.com/MulleFoundation/MulleObjCKVCFoundation)           | Key-Value-Coding based on MulleObjCFoundation and mulle-objc
 [MulleObjCMathFoundation](//github.com/MulleFoundation/MulleObjCMathFoundation)         | NSNumber refines that use the math library  
 [MulleObjCOSFoundation](//github.com/MulleFoundation/MulleObjCOSFoundation)             | Platform-dependent classes and categories like NSTask, NSPipe 
