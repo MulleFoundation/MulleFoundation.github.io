@@ -12,24 +12,24 @@ an optimizing pass can determine, which parts need to be actually linked and whi
 
 Library                                                                      | Description 
 -----------------------------------------------------------------------------|----------------------
-[Foundation](//MulleFoundation/Foundation)                                   | The MulleFoundation plus compatibility code
-[MulleFoundation](//MulleFoundation/MulleFoundation)                         | A convenient wrapper for the  MulleFoundation libraries
-[MulleObjCCalendarFoundation](//MulleFoundation/MulleObjCCalendarFoundation ) | Calendar functionality with NSCalendar
-[MulleObjCContainerFoundation](//MulleFoundation/MulleObjCContainerFoundation ) | Container classes like NSArray, NSSet, NSDictionary
-[MulleObjCExpatFoundation](//MulleFoundation/MulleObjCExpatFoundation)       | XML parser based on MulleObjCStandardFoundation and libexpat 
-[MulleObjCInetOSFoundation](//MulleFoundation/MulleObjCInetOSFoundation)     | OS specific extensions with NSURL 
-[MulleObjCKVCFoundation](//MulleFoundation/MulleObjCKVCFoundation)           | Key-Value-Coding based on MulleObjCFoundation and mulle-objc
-[MulleObjCMathFoundation](//MulleFoundation/MulleObjCMathFoundation)         | NSNumber refines that use the math library  
-[MulleObjCOSFoundation](//MulleFoundation/MulleObjCOSFoundation)             | Platform-dependent classes and categories like NSTask, NSPipe 
-[MulleObjCStandardFoundation](//MulleFoundation/MulleObjCStandardFoundation) | Platform-independent Objective-C classes, like NSString, NSArray, NSNotificationCenter
-[MulleObjCUnicodeFoundation ](//MulleFoundation/MulleObjCUnicodeFoundation  )| Unicode NSCharacterset and NSString methods
-[MulleObjCValueFoundation ](//MulleFoundation/MulleObjCValueFoundation  )    | Value classes NSNumber, NSString, NSDate, NSData 
-[objc-compat](//MulleFoundation/objc-compat)                                 | Glue for Objective-C code to support different runtimes
+[Foundation](//github.com/MulleFoundation/Foundation)                                   | The MulleFoundation plus compatibility code
+[MulleFoundation](//github.com/MulleFoundation/MulleFoundation)                         | A convenient wrapper for the  MulleFoundation libraries
+[MulleObjCCalendarFoundation](//github.com/MulleFoundation/MulleObjCCalendarFoundation ) | Calendar functionality with NSCalendar
+[MulleObjCContainerFoundation](//github.com/MulleFoundation/MulleObjCContainerFoundation ) | Container classes like NSArray, NSSet, NSDictionary
+[MulleObjCExpatFoundation](//github.com/MulleFoundation/MulleObjCExpatFoundation)       | XML parser based on MulleObjCStandardFoundation and libexpat 
+[MulleObjCInetOSFoundation](//github.com/MulleFoundation/MulleObjCInetOSFoundation)     | OS specific extensions with NSURL 
+[MulleObjCKVCFoundation](//github.com/MulleFoundation/MulleObjCKVCFoundation)           | Key-Value-Coding based on MulleObjCFoundation and mulle-objc
+[MulleObjCMathFoundation](//github.com/MulleFoundation/MulleObjCMathFoundation)         | NSNumber refines that use the math library  
+[MulleObjCOSFoundation](//github.com/MulleFoundation/MulleObjCOSFoundation)             | Platform-dependent classes and categories like NSTask, NSPipe 
+[MulleObjCStandardFoundation](//github.com/MulleFoundation/MulleObjCStandardFoundation) | Platform-independent Objective-C classes, like NSString, NSArray, NSNotificationCenter
+[MulleObjCUnicodeFoundation ](//github.com/MulleFoundation/MulleObjCUnicodeFoundation  )| Unicode NSCharacterset and NSString methods
+[MulleObjCValueFoundation ](//github.com/MulleFoundation/MulleObjCValueFoundation  )    | Value classes NSNumber, NSString, NSDate, NSData 
+[objc-compat](//github.com/MulleFoundation/objc-compat)                                 | Glue for Objective-C code to support different runtimes
 
 Library                                                                     | Description
 ----------------------------------------------------------------------------|----------------------
-[Foundation-startup](//MulleFoundation/Foundation-startup)                  | Startup code for Foundation-based executables
-[MulleFoundation-startup](//MulleFoundation/MulleFoundation-startup)        | Startup code for MulleFoundation-based executables
+[Foundation-startup](//github.com/MulleFoundation/Foundation-startup)                  | Startup code for Foundation-based executables
+[MulleFoundation-startup](//github.com/MulleFoundation/MulleFoundation-startup)        | Startup code for MulleFoundation-based executables
 
 *MulleFoundation* is based on [MulleObjC](//MulleObjC.github.io) and [mulle-core](//mulle-core.github.io).
 Some constituent libraries bring in outside dependencies such as *expat* for XML parsing.
@@ -38,10 +38,10 @@ Some constituent libraries bring in outside dependencies such as *expat* for XML
 
 Library                                                                     | Description
 ----------------------------------------------------------------------------|----------------------
-[foundation-developer](//MulleFoundation/foundation-developer)              | Objective C with mulle-sde and the MulleFoundation
-[mulle-foundation-developer](//MulleFoundation/mulle-foundation-developer)  | MulleFoundation developer kit for mulle-sde 
+[foundation-developer](//github.com/MulleFoundation/foundation-developer)              | Objective C with mulle-sde and the MulleFoundation
+[mulle-foundation-developer](//github.com/MulleFoundation/mulle-foundation-developer)  | MulleFoundation developer kit for mulle-sde 
 
 ## Install
 
-See [foundation-developer](//MulleFoundation/foundation-developer) for install instructions.
+See [foundation-developer](//github.com/MulleFoundation/foundation-developer) for install instructions.
 
